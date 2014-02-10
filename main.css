@@ -1,29 +1,72 @@
 #questionboard{
-	width:200px;
+	width:550px;
 	border-radius:15px;
 	padding:8px;
+	margin-right: auto;
+	margin-left:auto;
 	margin-bottom:20px;
 	border: 1px solid black;
+	font-size:250%
+}
+
+#logo {
+font-size:250%;
+font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
 }
 
 body{margin:0;}
 #topboard{
 height:30px;
 width:100%;
-margin-top:50px;
+margin-top:10px;
 margin-bottom:20px;
 margin-left:auto;
 margin-right:auto;
 background-color:orange;
-
+position:relative;
 }
 
 #scoreboard {
+width:550px;
+margin-left:auto;
+margin-right:auto;
+margin-bottom:30px;
 border: 1px solid black;
-width:75px;
 border-radius:15px;
 padding:8px;
+text-align:center;
+font-size:250%
 }
 #score{
+display:inline;
+}
 
+#comment {
+width:550px;
+border-radius:15px;
+border: 1px solid black;
+height:100px;
+padding:8px;
+margin-right: auto;
+margin-left:auto;
+font-size:350%;
+color:blue;
+}
+
+.topright {
+
+margin-right:30px;
+float:right;
+text-decoration:none;
+font-size: 12px;
+padding:0px;
+vertical-align:middle;
+}
+
+.topright li {
+height:30px;
+line-height:30px;
+display: inline;
+padding-right :20px;
+color:white;
 }

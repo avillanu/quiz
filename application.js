@@ -32,9 +32,13 @@ function pop(text, correct, counter, questionnum){
 	
 	if (counter == correct) {
 		score+=100
+		document.getElementById('comment').innerHTML = 'Correct! Wow!!!';
 	}
 
+	if (counter != correct) {
 
+		document.getElementById('comment').innerHTML = 'Incorrect. Next time!';
+	}
 	document.getElementById("score").innerHTML = score;
 	generateQuestion(questionnum)
 }
@@ -62,7 +66,7 @@ function addradiobutton(type, text, correct, counter, questionnum) {
 
 
 $(document).ready(function(){
-document.getElementById('questionboard').innerHTML = 'initial';
+
 generateQuestion(0);
 });
 
